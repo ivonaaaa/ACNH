@@ -2,7 +2,7 @@
 > Data analysis project
 
 ### Description
-This project is all about exploring and analyzing a publicly available dataset from the game **Animal Crossing: New Horizons**. The catalog consists of 30 .csv files, each containing data on in-game items, characters, insects, and other entities. The goal was to apply data science techniques to examine the data.<br>
+This project is all about exploring and analyzing a publicly available dataset from the game **Animal Crossing: New Horizons**. The catalog consists of 30 .csv files, each containing data on in-game items, characters, insects, and other entities. Source of the dataset: https://www.kaggle.com/datasets/jessicali9530/animal-crossing-new-horizons-nookplaza-dataset?resource=download
 
 ### Some of the questions explored
 - How are NPCs distributed by gender, personality, species and hobbies?
@@ -30,13 +30,13 @@ Steps to Install the Project:
    ```
 2. **Kaggle API setup**:
    This project uses a dataset downloaded from Kaggle, which requires an API token:
-   1) Log in to your Kaggle account
-   2) Go to accout -> API -> Create New API Token
-   3) Save the generated token
+   - Log in to your Kaggle account
+   - Go to accout -> API -> Create New API Token
+   - Save the generated token
 3. **Create the kaggle.json locally:**
-   1) Locate the commented code in the notebook and uncomment it
-   2) Insert your Kaggle username and API token
-   3) Run the cell
+   - Locate the commented code in the notebook and uncomment it
+   - Insert your Kaggle username and API token
+   - Run the cell
 6. **Place the kaggle.json in the correct location:**
    Put the file anywhere on your machine, but remember to update the path in the notebook accordingly
 7. **Run the remaininng configuration cells**:
